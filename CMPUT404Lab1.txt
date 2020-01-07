@@ -1,0 +1,21 @@
+Question 1: What is your GitHub URL?
+-https://github.com/sandysaji
+
+Question 2: What version is the requests library installed on the system?
+-2.22.0
+
+Question 3: What version is the requests library installed in the virtualenv?
+-2.22.0
+
+Question 4: What is the difference between the virtual environment and the not virtual environment python?
+- There wasnt any difference as the versions were the same and python3 was used.
+
+Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?
+-  code returned: 301.  url for 200 code: http://www.google.com/
+
+Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
+-   curl -iL  http://google.com/teapot : code -> 301 , 418
+    curl -i  http://google.com/teapot : code -> 301
+
+Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?   
+- By default its a get Reqeust. This helps you deteremine what kind of request to be sent. 
