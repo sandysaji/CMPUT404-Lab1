@@ -17,5 +17,9 @@ Question 6: What status code is returned for http://google.com/teapot? Is it the
 -   curl -iL  http://google.com/teapot : code -> 301 , 418
     curl -i  http://google.com/teapot : code -> 301
 
-Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?   
+Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+- The fields have content in it. Because we used a POST.
 - By default its a get Reqeust. This helps you deteremine what kind of request to be sent. 
+
+Question 8: What is the raw URL to your Python script on GitHub?
+- https://raw.githubusercontent.com/sandysaji/CMPUT404-Lab1/master/CMPUT404Lab1.py
